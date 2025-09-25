@@ -1,0 +1,64 @@
+#works{
+    margin: 0 auto;
+    min-height: calc(100vh-4rem);
+    width: 200vh;
+    max-width: 80rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 1rem;
+}
+.worksTitle{
+    text-align: center;
+    margin: 1rem 0;
+    font-size: 3rem;
+}
+.worksDesc{
+    justify-content: center;
+    
+}
+.worksImgs{
+    display: flex;
+    align-items: center;
+    width: 100vh;
+    justify-content: center;
+    max-width: 60rem;
+}
+.worksImg{
+    object-fit: cover;
+    height: 20rem;
+    margin: 0.5rem;
+}
+
+.workBtn{
+    margin: 3rem 0;
+    padding: 0.5rem 2.5rem;
+    border: none;
+    border-radius: 2rem;
+    background: white;
+    font-size: 1rem;
+
+}
+
+@media screen and (max-width:585px) {
+        .worksImg{
+            height: 50rem;
+        }
+}
+
+.worksImgJava{
+    max-width: 15rem;
+}
+.worksImgSpring{
+    width: 20rem;;
+}
+.worksImgReact{
+    width: 20rem;
+}
+.worksImgJS{
+    width: 8rem;
+}
+.worksImgSQL{
+    width: 10rem;
+}
